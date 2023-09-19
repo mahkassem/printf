@@ -9,7 +9,6 @@
 #define UNUSED(x) (void)(x)
 #define BUFF_SIZE 1024
 
-// Function prototypes
 int _putchar(char c);
 int _puts(char *str);
 int _printf(const char *format, ...);

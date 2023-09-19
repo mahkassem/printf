@@ -4,11 +4,10 @@ void print_buffer(char buffer[], int *buff_ind);
 
 /**
  * _printf - prints anything
- * @format: is a character string. The format string is composed of zero or more directives. See man 3 printf for more detail. You need to handle the following conversion specifiers:
-c
-s
-%
- * Return: number of characters printed
+ *
+ * @format: char *
+ *
+ * Return: int
  */
 int _printf(const char *format, ...)
 {
